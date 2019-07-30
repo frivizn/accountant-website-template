@@ -1,0 +1,20 @@
+1. hero-image (Source: pixabay.com);
+2. welcome-image (Photo by Startup Stock Photos from Pexels);
+3. newsletter-image (Photo by Lukas Kloeppel from Pexels);
+4. office building - svg icon (<div>Icons made by <a href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski">Zlatko Najdenovski</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>); 
+5. about-hero-image (Photo by rawpixel.com from Pexels);
+6. our-team-pics (Photo by rawpixel.com from Pexels);
+7. business-man (Photo by Stefan Stefancik from Pexels);
+8. woman-1 (Source: Pexels);
+9. woman-2 (Source: Pexels);
+10. woman-3 (Source: Pexels);
+11. man-1 (Source: Pexels);
+12. services-hero-image (Photo by rawpixel.com from Pexels);
+13. news-hero (Photo by rawpixel.com from Pexels);
+14. blog-1-image (Photo by rawpixel.com from Pexels);
+15. blog-2-image (Photo by rawpixel.com from Pexels);
+16. blog-3-image (Photo by Cadeau Maestro from Pexels);
+17. blog-4-image (Photo by Philipp Birmes from Pexels);
+18. blog-5-image (Photo by rawpixel.com from Pexels);
+
+http://www.frivizn.com

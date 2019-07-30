@@ -1,0 +1,681 @@
+/* Color Palette
+  -------------------------------------------------------------------------- */
+/*    
+  #232325 - raisin black;
+  #fdfffc - baby powder;
+  #235789 - b'dazzled blue;
+  #c1292e - international orange (golden gate bridge);
+  #23ce6b - ufo green;
+*/
+
+/* Global Styles 
+  -------------------------------------------------------------------------- */
+
+/* Box-sizing Reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fdfffc;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  color: #fdfffc;
+}
+
+hr {
+  width: 100px;
+  background: #fdfffc;
+}
+
+h1 ~ p,
+h2 ~ p,
+h3 ~ p {
+  margin: 0;
+}
+
+h1 ~ p {
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: #232325;
+  transition: background-color 1s ease-in;
+}
+
+a:hover {
+  color: #fdfffc;
+  background-color: rgba(35, 35, 37, 0.5);
+  text-decoration: none;
+}
+
+.nav-wrap,
+.content-wrap {
+  max-width: 1020px;
+  width: 80%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.nav-wrap {
+  position: relative;
+}
+
+.content-wrap {
+  padding: 50px 0 75px 0;
+}
+
+.btn {
+  text-decoration: none;
+  background: #23ce6b;
+  padding: 10px;
+  display: inline-block;
+  color: #fdfffc;
+  transition: background-color 1s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #70e7a2;
+  color: #fdfffc;
+}
+
+.btn:focus {
+  border: 2px solid #235789;
+}
+
+.hero {
+  background: #232325;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Header
+  -------------------------------------------------------------------------- */
+
+header {
+  background: #fdfffc;
+  color: inherit;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Logo
+  -------------------------------------------------------------------------- */
+
+.logo img {
+  float: left;
+  width: 170px;
+  padding: 10px;
+}
+
+/* Navigation
+  -------------------------------------------------------------------------- */
+
+nav {
+  text-align: right;
+  font-size: 0;
+}
+
+nav a {
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  vertical-align: bottom;
+  line-height: 3;
+  font-size: 16px;
+}
+
+.bars {
+  display: none;
+}
+
+/* Home Hero Container
+  -------------------------------------------------------------------------- */
+
+.home-hero {
+  background: #232325;
+  overflow: hidden;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(35, 35, 37, 0.4);
+}
+
+.home-hero .content-wrap {
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  display: inline-block;
+  transform: translateX(-50%);
+}
+
+/* About Hero Container
+  -------------------------------------------------------------------------- */
+
+.about-hero {
+  background: linear-gradient(rgba(35, 35, 37, 0.5), rgba(35, 35, 37, 0.3)),
+    url(../images/about-hero-image.jpg) no-repeat;
+  background-position: center center;
+}
+
+/* Services Hero Container
+  -------------------------------------------------------------------------- */
+
+.services-hero {
+  background: linear-gradient(rgba(35, 35, 37, 0.5), rgba(35, 35, 37, 0.3)),
+    url(../images/services-hero-image.jpg) no-repeat;
+  background-position: bottom center;
+}
+
+/* News Hero Container
+  -------------------------------------------------------------------------- */
+
+.news-hero {
+  background: linear-gradient(rgba(35, 35, 37, 0.5), rgba(35, 35, 37, 0.3)),
+    url(../images/news-hero-image.jpg) no-repeat;
+  background-position: top center;
+}
+
+/* Contact Hero Container
+  -------------------------------------------------------------------------- */
+
+.contact-hero {
+  background: linear-gradient(rgba(35, 35, 37, 0.5), rgba(35, 35, 37, 0.3)),
+    url(../images/contact-hero-image.jpg) no-repeat;
+  background-position: center center;
+}
+
+/* Welcome
+  -------------------------------------------------------------------------- */
+
+.welcome {
+  background: #23ce6b;
+}
+
+.welcome-img {
+  border-radius: 50%;
+}
+
+.welcome h2 {
+  margin-bottom: 20px;
+}
+
+.welcome p {
+  margin-bottom: 10px;
+}
+
+.building-img {
+  padding-top: 50px;
+}
+
+.our-team h2,
+.our-team p {
+	padding-top: 20px;
+	clear: both;
+	color: #232325;
+}
+
+.our-team h3,
+.services-box h3 {
+  padding-bottom: 10px;
+}
+
+.our-team p {
+  margin-top: -3px;
+}
+
+.our-team-box {
+  display: inline-block;
+  width: 45%;
+  padding: 20px;
+  margin-left: 35px;
+}
+
+.our-team img {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+
+/* Services
+  -------------------------------------------------------------------------- */
+
+.services {
+  background: #235789;
+  color: #fdfffc;
+  padding-top: 40px;
+}
+
+.services a {
+  color: #fdfffc;
+}
+
+a.read-more {
+  color: #fdfffc;
+  background: none;
+  padding: 10px 0;
+}
+
+.box {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.box .fas,
+.services-box .fas,
+.col-narrow .fas {
+  font-size: 60px;
+}
+
+a.btn.download {
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.services-box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  border: 1px solid #fdfffc;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Testimonials
+  -------------------------------------------------------------------------- */
+
+.testimonials {
+  background: #23ce6b;
+}
+
+.testimonials p {
+  text-align: center;
+  font-style: italic;
+}
+
+.testimonial-text:before {
+  content: '\201F';
+}
+
+.testimonial-text:after {
+  content: '\201F';
+}
+
+#testimonials .fas {
+  font-size: 30px;
+}
+
+i.fas.fa-long-arrow-alt-left {
+  padding-right: 5px;
+}
+
+i.fas.fa-long-arrow-alt-right {
+  padding-left: 5px;
+}
+
+/* News
+  -------------------------------------------------------------------------- */
+
+.news {
+  background: #fdfffc;
+}
+
+.news .col-wide {
+  padding-right: 20px;
+}
+
+.news .narrow-wide {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.news h2,
+.news p {
+  color: #232325;
+  text-align: left;
+}
+
+.news img {
+  width: 100%;
+}
+
+.news p:first-of-type {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.news p:last-of-type {
+  padding-bottom: 50px;
+}
+
+.news ul,
+.news li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+/* Latest News
+  -------------------------------------------------------------------------- */
+
+.latest-news {
+  background: #235789;
+  color: #fdfffc;
+}
+
+.latest-news h3 {
+  padding: 30px 0;
+}
+
+.latest-news p {
+  text-align: left;
+  margin: 0 30px 0 30px;
+}
+
+/* Newsletter & Contact Forms
+  -------------------------------------------------------------------------- */
+
+.newsletter {
+  background: linear-gradient(rgba(35, 35, 37, 0.1), rgba(35, 35, 37, 0.9)),
+    url(../images/newsletter-image.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.newsletter-form {
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info img {
+  width: 65%;
+}
+
+input[type='text'],
+input[type='email'],
+button.btn {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #232325;
+}
+
+label {
+	color: #fdfffc;
+}
+textarea,
+input[type='email'],
+input[type='text'] {
+  width: 100%;
+  margin: 12px 0;
+}
+
+textarea {
+  height: 200px;
+  border: 1px solid #232325;
+}
+
+.newsletter input[type='email'] {
+  width: 65%;
+}
+
+button.btn {
+  width: 30%;
+}
+
+.newsletter-form input[type='email']:focus {
+  border: 2px solid #235789;
+}
+
+/* Google Map
+  -------------------------------------------------------------------------- */
+
+#google-map {
+  width: 100%;
+  height: 500px;
+}
+
+/* Footer
+  -------------------------------------------------------------------------- */
+
+footer {
+  background: #232325;
+  text-align: center;
+  position: relative;
+}
+
+footer .content-wrap {
+  padding-bottom: 20px;
+}
+
+footer h3 {
+  padding: 20px 0;
+  color: #fdfffc;
+  text-transform: uppercase;
+}
+
+footer .box {
+  text-align: left;
+  width: 25%;
+  line-height: 2;
+}
+
+footer a,
+.social-media a {
+  color: #fdfffc;
+}
+
+.social-media-name.linkedin {
+  padding-left: 15px;
+}
+
+.social-media-name.facebook {
+  padding-left: 22px;
+}
+
+.social-media-name.instagram {
+  padding-left: 15px;
+}
+
+.social-media-name {
+  padding-left: 10px;
+}
+
+.credit {
+  clear: both;
+  padding-top: 50px;
+  font-size: 12px;
+}
+
+.credit + p {
+  font-size: 12px;
+}
+
+footer .btn {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  border-radius: 2px;
+}
+
+/* Media Queries
+  -------------------------------------------------------------------------- */
+
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 899px) {
+	
+	.home-hero .content-wrap {
+		padding: 0;
+	}
+  h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  h3 {
+    font-size: 0.8em;
+  }
+
+  .home-hero p {
+    font-size: 0.4em;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  nav a {
+    float: left;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+  }
+
+  .bars {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .responsive a {
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #232325;
+  }
+
+  .responsive a:last-of-type {
+    border-bottom: none;
+  }
+
+  .welcome {
+    text-align: center;
+  }
+
+  .welcome-img {
+    width: 200px;
+  }
+
+  .our-team-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+	
+	 .our-team-box img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services .box {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .services-box {
+    display: block;
+    width: 90%;
+    text-align: center;
+    min-height: 0px;
+  }
+
+  .latest-news .box {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .newsletter input[type='email'],
+  .newsletter button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .box {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    padding-bottom: 50px;
+  }
+}
